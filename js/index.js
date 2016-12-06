@@ -1,4 +1,4 @@
-$(function(){
+﻿$(function(){
 	//引入fastclick模块消除点透影响
 	FastClick.attach(document.body);
 	//首页轮播图
