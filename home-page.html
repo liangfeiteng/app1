@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>阅居--首页</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/swiper-3.4.0.min.css" />
+		<link rel="stylesheet" href="./font/iconfont.css" />
+		<link rel="stylesheet" href="./font2/iconfont.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/zepto.min.js"></script>
+		<script src="./js/base.js"></script>
+		<script src="./js/swiper-3.4.0.min.js"></script>
+		<script src="./js/fastclick.js"></script>
+		<script src="./js/index.js"></script>
+	</head>
+	<body>
+		<!--header部分-->
+		<header>
+			<a href="#"><span class="lt"><i class="iconfont icon-11"></i></span></a>
+			<span class="center home-center"><i class="iconfont icon-icon3 cr"></i>阅居</span>
+			<a href="login.html" target="_self"><span class="rt"><i class="iconfont icon-yonghu"></i></span></a>
+		</header>
+		<!--banner部分-->
+		<div class="banner">
+			<div class="swiper-container swiper-container-1">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="./images/h-banner-1.png" alt="" /></div>
+			        <div class="swiper-slide"><img src="./images/h-banner-2.jpg" alt="" /></div>
+			        <div class="swiper-slide"><img src="./images/h-banner-3.jpg" alt="" /></div>
+			        <div class="swiper-slide"><img src="./images/h-banner-4.jpg" alt="" /></div>
+			        <div class="swiper-slide"><img src="./images/newinfo-banner.png" alt="" /></div>
+			    </div>
+			    <!-- 分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<!--主页图文导航部分-->
+		<section class="home-img-nav">
+			<ul>
+				<li class="red">
+					<a href="bedroom.html" target="_self">
+						<p><i class="iconfont icon-woshi2"></i></p>
+						<h2>卧室</h2>
+					</a>
+				</li>
+				<li class="orange">
+					<a href="#">
+						<p><i class="iconfont icon-ic2"></i></p>
+						<h2>客厅</h2>
+					</a>
+				</li>
+				<li class="green">
+					<a href="#">
+						<p><i class="iconfont icon-ic7"></i></p>
+						<h2>书房</h2>
+					</a>
+				</li>
+				<li class="blue">
+					<a href="#">
+						<p><i class="iconfont icon-cantingrestaurant43"></i></p>
+						<h2>餐厅</h2>
+					</a>
+				</li>
+				<li class="red">
+					<a href="#">
+						<p><i class="iconfont icon-chufang"></i></p>
+						<h2>厨房</h2>
+					</a>
+				</li>
+				<li class="orange">
+					<a href="#">
+						<p><i class="iconfont icon-yushi"></i></p>
+						<h2>浴室</h2>
+					</a>
+				</li>
+				<li class="green">
+					<a href="#">
+						<p><i class="iconfont icon-ertongfang"></i></p>
+						<h2>儿童</h2>
+					</a>
+				</li>
+				<li class="blue">
+					<a href="#">
+						<p><i class="iconfont icon-gengduo1"></i></p>
+						<h2>更多</h2>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!--首页报价部分-->
+		<section class="home-main-offer">
+			<h6></h6>
+			<h1><i class="iconfont icon-jisuanqi"></i>算算你家装修多少钱</h1>
+			<p class="area"><input type="text" value="" placeholder="请输入面积"/><span>㎡</span></p>
+			<p class="fitment clearfix">
+				<span class="left">
+					<select name="">
+						<option value="">现代简约</option>
+						<option value="">地中海风格</option>
+						<option value="">北欧风格</option>
+						<option value="">南非风格</option>
+					</select>
+					<i class="iconfont icon-xiajianhao"></i>
+				</span>
+				<span class="right">
+					<select name="">
+						<option value="">中档宜居</option>
+						<option value="">高档宜居</option>
+						<option value="">低档宜居</option>
+						<option value="">豪华宜居</option>
+					</select>
+					<i class="iconfont icon-xiajianhao"></i>
+				</span>
+			</p>
+			<p class="btn waves-effect waves-button"><input type="button" value="获得本地精准报价"/></p>
+			<ul class="rope clearfix">
+				<li><img src="./images/h-rope.png" alt="" /></li>
+				<li><img src="./images/h-rope.png" alt="" /></li>
+				<li><img src="./images/h-rope.png" alt="" /></li>
+				<li><img src="./images/h-rope.png" alt="" /></li>
+				<li><img src="./images/h-rope.png" alt="" /></li>
+				<li><img src="./images/h-rope.png" alt="" /></li>
+				<li><img src="./images/h-rope.png" alt="" /></li>
+			</ul>
+			<h2>今日已有<span>47714</span>户业主获得报价</h2>
+			<ul class="offer-info">
+				<li>
+					<span>4小时前</span>
+					<span>189***386</span>
+					<span>新古典</span>
+					<span>85㎡</span>
+					<span>20万</span>
+				</li>
+				<li>
+					<span>18分钟前</span>
+					<span>158***396</span>
+					<span>现代简约</span>
+					<span>91㎡</span>
+					<span>7万</span>
+				</li>
+			</ul>
+		</section>
+		<!--首页优惠信息部分-->
+		<section class="home-privilege-info">
+			<div class="wrapper">
+				<div class="home-privilege-info-title">
+					<h2><i class="iconfont icon-youhuixinxi"></i>优惠信息</h2>
+					<h3><a href="favorable.html" target="_self">更多</a></h3>
+				</div>
+				<div class="home-privilege-info-container">
+					<p class="top"><img src="./images/pri-info-1.png" alt="" /></p>
+					<p class="bottom">
+						<img src="./images/pri-info-2.png" alt="" />
+						<img src="./images/pri-info-3.png" alt="" />
+					</p>
+				</div>
+			</div>
+		</section>
+		<!--首页精品推荐部分-->
+		<section class="home-boutique">
+			<div class="wrapper">
+				<div class="home-boutique-title">
+					<h2><i class="iconfont icon-jingpin"></i>精彩推荐</h2>
+					<h3><a href="hot-recommended.html" target="_self">更多</a></h3>
+				</div>
+				<div class="home-boutique-container clearfix">
+					<dl class="left">
+						<dt><img src="./images/bou-1.png" alt="" /></dt>
+						<dd><p>实木书柜书架自由组合橡木书架置物架<b>￥2366.00</b></p></dd>
+					</dl>
+					<dl class="right">
+						<dt><img src="./images/bou-2.png" alt="" /></dt>
+						<dd><p>现代简约客厅落地灯LED立式台灯<b>￥418.00</b></p></dd>
+					</dl>
+				</div>
+			</div>
+		</section>
+		<!--首页各种风格部分-->
+		<section class="home-style">
+			<div class="wrapper">
+				<div class="home-style-title">
+					<h2><i class="iconfont icon-fengge"></i>各种风格</h2>
+					<h3><a href="style.html" target="_self">更多</a></h3>
+				</div>
+				<div class="home-style-container">
+					<div class="home-style-top">
+						<div class="ad">
+							<p>现代简约风格</p>
+							<p>优质生活，从简单开始</p>
+						</div>
+					</div>
+					<div class="home-style-bottom">
+						<div class="ad">
+							<p>地中海风格</p>
+							<p>迷人风情，纵享生活</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--首页最新资讯部分-->
+		<section class="home-message">
+			<div class="wrapper">
+				<div class="home-message-title">
+					<h2><i class="iconfont icon-zuixinzixunicon"></i>最新资讯</h2>
+					<h3><a href="information.html" target="_self">更多</a></h3>
+				</div>
+				<div class="home-message-container clearfix">
+					<p class="left"><img src="./images/new-mes.png" alt="" /></p>
+					<ul class="right">
+						<li>1、定制家具:一时之兴还是长久之计</li>
+						<li>2、定制家具缺乏统一标准 警惕假大空承诺。</li>
+						<li>3、淘老家具需谨慎 红木专家支招辨真假。</li>
+						<li>4、网售儿童家具抽检80%不合格</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!--首页门店地址部分-->
+		<section class="home-address">
+			<div class="wrapper">
+				<div class="home-address-title">
+					<h2><i class="iconfont icon-mendiandizhi"></i>门店地址</h2>
+					<h3><a href="outlet-adress.html" target="_self">更多</a></h3>
+				</div>
+				<div class="home-address-container clearfix">
+					<p class="left"><img src="./images/address-1.png" alt="" /></p>
+					<ul class="right">
+						<li>克诺家居</li>
+						<li>(北蔡店)</li>
+						<li>上海闸北区沪太路(近汶水西路)</li>
+					</ul>
+				</div>
+				<div class="home-address-container clearfix">
+					<p class="left"><img src="./images/address-2.png" alt="" /></p>
+					<ul class="right">
+						<li>展华家居</li>
+						<li>(徐汇店)</li>
+						<li>地址：上海徐汇区漕溪路126号(近中山西路)</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!--footer部分-->
+		<footer>
+			<ul>
+				<li class="active">
+					<a href="home-page.html" target="_self">
+						<p><i class="iconfont icon-shouye"></i></p>
+						<h4>首页</h4>
+					</a>
+				</li>
+				<li>
+					<a href="hot-recommended.html" target="_self">
+						<p><i class="iconfont icon-fenlei"></i></p>
+						<h4>分类</h4>
+					</a>
+				</li>
+				<li>
+					<a href="community-share.html" target="_self">
+						<p><i class="iconfont icon-unie60b"></i></p>
+						<h4>社区</h4>
+					</a>
+				</li>
+				<li>
+					<a href="shopping-cart.html" target="_self">
+						<p><i class="iconfont icon-iconfontgouwuche"></i></p>
+						<h4>购物车</h4>
+					</a>
+				</li>
+				<li>
+					<a href="customization.html" target="_self">
+						<p><i class="iconfont icon-qianbi"></i></p>
+						<h4>我的定制</h4>
+					</a>
+				</li>
+				<li>
+					<a href="personal-center.html" target="_self">
+						<p><i class="iconfont icon-gerenzhongxin"></i></p>
+						<h4>个人中心</h4>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
